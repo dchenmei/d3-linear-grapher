@@ -2,20 +2,22 @@
     <head>
 		<link rel="stylesheet" href="style/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<script src="js/graph.js"></script>
 	</head>
 	    
 	<body>
 		<div class="main">
 
 			<div class="container">
-				<form>
-					Y = <input class="number" type="number" name="m" placeholder="m">x + 
+				<form id="params">
+					Y = <input class="number" type="number" name="m" placeholder="m"> x + 
 					<input class="number" type="number" name="b" placeholder="b">
 					<button tpye="Submit" value="Submit">Graph</button>
 				</form>
 
 				<div id="title">Linear Graph</div>
-				<div class="graphHolder">Graph in here</div>
+				<div class="graphHolder"></div>
 			</div>
 		</div>
 	</body>
