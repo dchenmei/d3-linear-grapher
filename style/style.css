@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+    
+.main {
+	height: 100vh;
+	width: 100w;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #457B9D;
+	font-family: "Ubuntu", "sans-serif";
+}
+
+.main .container {
+	height: 560px;
+	width: 900px;
+
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	position: relative;
+
+	padding: 20px;
+	background-color: #E63946;
+
+	@media (min-width: 940px) {
+		.main .container {
+			box-shadow: 2px 2px 20px;
+		}
+	}
+}
+
+.main .container #params {
+	text-align: center;
+}
+
+.main .container #params button {
+	border-radius: 4px;
+	color: white;
+	background: #1D3557;
+}
+
+.main .container .graphHolder {
+	background-color: #F1FAEE;
+}
+
+.main .container #title {
+	text-align: center;
+	font-size: 2em;
+}
+
+.number {
+	text-align: center;
+	width: 5vw;
+}
